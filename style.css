@@ -1,0 +1,434 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-container {
+  max-width: 1300px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+nav {
+  flex:1;
+  text-align: right;
+}
+
+.nav-item {
+  display: inline-block;
+  list-style-type: none;
+}
+
+.nav-item-link {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #555;
+  font-weight: 600;
+  font-size: 1.05rem;
+}
+
+.travcab {
+  width: 200px;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.banner-header {
+  flex-basis: 50%;
+  min-width: 300px;
+}
+
+.banner-image {
+  max-width: 100%;
+  padding: 50px 0;
+}
+
+p{
+  color: #555;
+}
+
+.banner-header h1 {
+  font-size: 50px;
+  line-height: 60px;
+  margin: 25px 0;
+}
+
+.banner-header p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+.banner-btn {
+  display: inline-block;
+  background: #ff523b;
+  color: #fff;
+  padding: 8px 30px;
+  margin: 30px 0px;
+  border-radius: 50px;
+  font-weight: bold;
+  font-size: 1.3rem;
+  text-decoration: none;
+  transition: background 0.5s;
+}
+
+.banner-btn:hover {
+  background: #563434;
+}
+
+.header {
+  background: radial-gradient(#fff, #ffd6d6);
+}
+
+.header .banner {
+  margin-top: 70px;
+}
+
+
+/* Featured Section */
+
+.featured-products {
+  margin: 70px 0;
+}
+
+.featured {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.feature {
+  flex-basis: 30%;
+  margin: 10px;
+}
+
+.feature img {
+  width: 100%;
+}
+
+.small-container {
+  max-width: 1080px;
+  margin: auto;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+/***** Featured Products ******/
+
+.feature-container {
+  max-width: 1080px;
+  margin: auto;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+.feat_products {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.feat_prod {
+  flex-basis: 25%;
+  padding: 10px;
+  min-width: 200px;
+  min-height: 250px;
+  margin-bottom: 80px;
+  transition: transform 0.5s;
+}
+
+.feat_prod img {
+  width: 100%;
+  height: 100%;
+}
+
+.title {
+  text-align: center;
+  margin: 0 auto 50px;
+  position: relative;
+  line-height: 60px;
+  color: #555;
+}
+
+.title:after {
+  content: '';
+  background: #ff523b;
+  width: 80px;
+  height: 5px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.feat_prod h4 {
+  color: #555;
+  font-weight: normal;
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+}
+
+.feat_prod p {
+  font-size: 0.875;
+}
+
+.rating .fas, .rating .far {
+  color: #ff523b;
+  margin-bottom: 8px;
+}
+
+.feat_prod:hover {
+  transform: translateY(-10px);
+}
+
+
+/****** Offer *******/
+
+.offer {
+  background: radial-gradient(#fff, #ffd6d6);
+  margin-top: 80px;
+  padding: 5px 0;
+}
+
+.offer-container {
+  max-width: 1080px;
+  margin: auto;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+.offer_product {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.offer_prod {
+  flex-basis: 50%;
+  min-width: 300px;
+}
+
+.offer_prod img {
+  max-width: 90%;
+  padding: 50px;
+}
+
+.offer_prod h1 {
+  font-size: 2em;
+  line-height: 1.5;
+  margin-bottom: 5px;
+}
+
+.offer_prod p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  margin-bottom: 5px;
+}
+
+small {
+  color: #555;
+  font-size: 0.9375em;
+  line-height: 1.5;
+  margin-bottom: 5px
+}
+
+.offer-btn {
+  display: inline-block;
+  background: #ff523b;
+  color: #fff;
+  padding: 8px 30px;
+  margin: 30px 0px;
+  border-radius: 50px;
+  font-weight: bold;
+  font-size: 1.3rem;
+  text-decoration: none;
+  transition: background 0.5s;
+}
+
+.offer-btn:hover {
+  background: #563434;
+}
+
+/******* Testimonial *******/
+.testimonial {
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+
+.testimonial-row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.testimonial-column {
+  flex-basis: 30%;
+  margin: 10px;
+  text-align: center;
+  padding: 40px 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 0px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: transform 0.5s
+}
+
+.testimonial-column:hover {
+  transform: translateY(-10px);
+}
+
+.testimonial-column img {
+  width: 50%;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  border-radius: 50%;
+}
+
+.testimonial-container {
+  max-width: 1080px;
+  margin: auto;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+.testimonial-column p {
+  font-size: 15px;
+  color: #777;
+  margin: 12px 0;
+}
+
+.testimonial-column .quote {
+  font-size: 30px;
+  color: #ff523b;
+}
+
+.testimonial-column h3 {
+  font-size: 1em;
+  color: #555;
+  font-weight: 600;
+}
+
+/************ Footer **********/
+
+.footer {
+  background: #000;
+  color: #8a8a8a;
+  font-size: 1em;
+  padding: 60px 0 20px;
+}
+
+.footer-row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.footer-container {
+  max-width: 1080px;
+  margin: auto;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+.footer-column1, .footer-column2, .footer-column3, .footer-column4 {
+  min-width: 220px;
+  margin-bottom: 20px;
+}
+
+.footer-column1 {
+  flex-basis: 30%;
+}
+.footer-column2 {
+  flex: 1;
+  text-align: center;
+}
+.footer-column2 img {
+  width: 140px;
+  margin-bottom: 20px;
+}
+.footer-column3, .footer-column4 {
+  flex-basis: 12%;
+  text-align: center;
+}
+
+.footer-column3 ul, .footer-column4 ul {
+  list-style-type: none;
+}
+
+.footer p {
+  color: #8a8a8a;
+}
+
+.footer h3 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.app-logo {
+  margin-top: 20px;
+}
+
+.app-logo img {
+  width: 120px;
+}
+
+.footer-container hr {
+  border: none;
+  background: #b5b5b5;
+  height: 1px;
+  margin: 20px 0;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 1.2em;
+  color: #fff!important;
+}
+
+@media only screen and (max-width: 600px){
+  .banner, .featured, .feat_products, 
+  .offer_product, .testimonial-row, .footer-row {
+    text-align: center;
+  }
+
+  .banner-header, .feature, .feat_prod,
+  .offer_prod, .testimonial-column {
+    flex-basis: 100%;
+  }
+
+  .single_product .banner {
+    text-align: left;
+  }
+
+  .single_product .banner-header {
+    padding: 20px 0;
+  }
+
+  .single_product h1{
+    font-size: 1.4rem;
+    line-height: 1.4;
+  }
+
+  .cart-info p {
+    display: none;
+  }
+
+}
+
+
